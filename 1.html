@@ -1,17 +1,32 @@
 <!doctype html>
 <html>
 <head>
-  <title>web1 - html</title>
+  <title>web-html</title>
   <meta charset="utf-8">
-</head>
-<body>
-  <h1><a href="index.html">WEB</a></h1>
-<ol>
-  <li><a href="1.html">HTML</a></li>
-  <li><a href="2.html">CSS</a></li>
-  <li><a href="3.html">JAVASCRIPT</a></li>
-</ul>
-<h2>HTML이란 무엇인가?</h2>
-<a href="https://www.w3.org/TR/html4/"target="_blank" title="html5 specification">웹 문서</a>를 만들기 위하여 사용하는 기본적인 <strong>웹 언어</strong>의 한 종류이다. <u>하이퍼텍스트</u>를 작성하기 위해 개발되었다. 인터넷 서비스의 하나인 월드 와이드 웹을 통해 볼 수 있는 문서를 만들 때 사용하는 웹 언어의 한 종류이다. 특히 하이퍼텍스트를 작성하기 위해 개발되었으며, 인터넷에서 웹을 통해 접근되는 대부분의 웹 페이지들<img src="coding.jpg" width="100%">
-<p style="margin-top:45px;">(*롤드컵의 여왕이라고 불리는 이유* 롤드컵 시즌이 다가오면 점점 버프가 됨...)</p>
-</body>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="colors.js"></script>
+
+  <body>
+    <h1><a href="index.html">WEB</a></h1>
+    <input type="button" value="night" onclick="
+      nightdayhandler(this);
+      ">
+
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">JAVASCRIPT</a></li>
+      </ol>
+      <div id="article">
+      <h2>HTML</h2>
+      <p>
+      The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.
+      It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+      </p>
+      </div>
+    </div>
+  </body>
+</html>

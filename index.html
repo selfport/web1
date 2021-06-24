@@ -1,19 +1,31 @@
 <!doctype html>
 <html>
 <head>
-  <title>web1 - html</title>
+  <title>web-index</title>
   <meta charset="utf-8">
-</head>
-<body>
-  <h1><a href="index.html">WEB</a></h1>
-<ol>
-  <li><a href="1.html">HTML</a></li>
-  <li><a href="2.html">CSS</a></li>
-  <li><a href="3.html">JAVASCRIPT</a></li>
-</ul>
-<h2>web</h2>
-<a href="https://www.w3.org/TR/html4/"target="_blank" title="html5 specification">웹 문서</a>를 만들기 위하여 사용하는 기본적인 <strong>웹 언어</strong>의 한 종류이다. <u>하이퍼텍스트</u>를 작성하기 위해 개발되었다. 인터넷 서비스의 하나인 월드 와이드 웹을 통해 볼 수 있는 문서를 만들 때 사용하는 웹 언어의 한 종류이다. 특히 하이퍼텍스트를 작성하기 위해 개발되었으며, 인터넷에서 웹을 통해 접근되는 대부분의 웹 페이지들<img src="coding.jpg" width="100%">
-<p>보통 WWW(World Wide Web)이라고 불린다. 제공하는 정보 검색 서비스로 텍스트만 제공했던 기존의 정보 서비스와는 달리 그림, 동화상, 소리 등도 모두 지원하고 있다. 또 하이퍼텍스트 개념을 도입하여 쉽게 원하는 정보와 관련된 정보를 찾아볼 수 있는 특징을 갖고 있다. 그래픽 환경으로 손쉬운 사용법이 현재 인터넷이 급부상하게 된 하나의 원인이다.
-</p>
-</body>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="colors.js"></script>
+
+  <body>
+    <h1><a href="index.html">WEB</a></h1>
+    <input type="button" value="night" onclick="
+      nightdayhandler(this);
+      ">
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">JAVASCRIPT</a></li>
+      </ol>
+      <div id="article">
+      <p>
+      Where the Web was born. Tim Berners-Lee, a British scientist, invented the World Wide Web (WWW) in 1989, while working at CERN.
+      The Web was originally conceived and developed to meet the demand for automated information-sharing between scientists in universities
+      and institutes around the world.
+      </p>
+      </div>
+    </div>
+  </body>
 </html>
